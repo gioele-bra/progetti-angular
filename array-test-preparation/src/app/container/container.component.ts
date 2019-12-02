@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContainerComponent implements OnInit {
 
-  constructor() { }
+  names: string[];
+
+  constructor() {
+    this.names = ["Ruspa", "Gru", "Autocarro", "Betoniera", "Martello Pneumatico", "Muletto", "Escavatore", "Bobcat", "Pala meccanica", "Morto"]
+  }
 
   ngOnInit() {
   }
