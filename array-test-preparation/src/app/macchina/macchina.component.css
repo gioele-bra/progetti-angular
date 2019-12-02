@@ -1,0 +1,9 @@
+div {
+  width: 150px;
+  height: fit-content;
+  padding: 5px;
+  background-color: lightblue;
+  border: black 1px;
+  border-style: solid;
+  font-style: sans-serif;
+}
