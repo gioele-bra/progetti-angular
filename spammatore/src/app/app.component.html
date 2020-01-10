@@ -1,0 +1,13 @@
+<form>
+  <label>Cose inutili:</label>
+  <input type="text" name="inutile" #new_inutile>
+  <label>Numero:</label>
+  <input type="number" name="numero" #new_number>
+
+  <button (click)="onClick(new_inutile, new_number)">Start Spamming</button>
+  <button (click)="refresh()">Refresh page</button>
+</form>
+
+<br><br>
+
+<div *ngFor="let frase of articles"><app-frase [frase]='frase'></app-frase><br></div>
